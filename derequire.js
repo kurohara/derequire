@@ -23,14 +23,17 @@ function isroot(dir) {
 	return false;
 }
 
-function checkmain(maindef, srcpath) {
-	if (maindef === srcpath) {
+function checkmain(dirpath, maindef, srcpath) {
+  var mainpath = path.join(dirpath, maindef);
+
+	if (mainpath === srcpath) {
 		return true;
 	}
-	if (path.join(maindef, 'index.js') === srcpath) {
+	if (path.join(mainpath, 'index.js') === srcpath) {
 		return true;
 	}
 
+  return false;
 }
 
 function searchpackage(modulepath) {
@@ -39,7 +42,8 @@ function searchpackage(modulepath) {
 	while (!isroot(parentdir)) {
 		try {
 			var packagejson = JSON.parse(fs.readFileSync(parentdir + "/package.json"));
-			if (packagejson && chackmain(packagejson.main, modulepath)) {
+
+			if (packagejson && checkmain(parentdir, packagejson.main, modulepath)) {
 				return packagejson;
 			}
 		} catch (e) {
