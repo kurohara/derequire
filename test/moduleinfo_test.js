@@ -1,6 +1,6 @@
 'use strict';
 
-var derequire = require('../lib/derequire.js');
+var moduleinfo = require('../lib/moduleinfo.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -30,8 +30,8 @@ exports['awesome'] = {
   'no args': function(test) {
     test.expect(1);
     // tests here
-    var version = derequire(derequire).packagejson.version;
-    test.equal(version, '0.1.0', 'should be 0.1.0');
+    var version = moduleinfo(moduleinfo).packagejson.version;
+    test.equal(version, '1.0.0', 'should be 1.0.0');
     test.done();
   },
 };

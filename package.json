@@ -1,26 +1,26 @@
 {
-  "name": "derequire",
+  "name": "moduleinfo",
   "description": "The reverse search tool for module.",
-  "version": "0.1.0",
-  "homepage": "https://github.com/kurohara/derequire",
+  "version": "1.0.0",
+  "homepage": "https://github.com/kurohara/moduleinfo",
   "author": {
     "name": "Hiroyoshi Kurohara",
     "email": "kurohara@yk.rim.or.jp"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kurohara/derequire.git"
+    "url": "https://github.com/kurohara/moduleinfo.git"
   },
   "bugs": {
-    "url": "https://github.com/kurohara/derequire/issues"
+    "url": "https://github.com/kurohara/moduleinfo/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kurohara/derequire/blob/master/LICENSE-MIT"
+      "url": "https://github.com/kurohara/moduleinfo/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/derequire.js",
+  "main": "lib/moduleinfo.js",
   "engines": {
     "node": ">= 0.8.0"
   },
