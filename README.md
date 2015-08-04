@@ -3,7 +3,7 @@
 The reverse search tool for module.
 
 ## Getting Started
-Install the module with: `npm install derequire`
+Install the module with: `npm install moduleinfo`
 
 ```javascript
 var some_module = require('some_module');
