@@ -18,7 +18,7 @@ The returned object will be formed like:
 ```
 {
   path: path_to_source_of_module,
-  packagejson: pased_package_json_object
+  packagejson: parsed_package_json_object
 }
 ```
 
