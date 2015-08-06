@@ -32,9 +32,10 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-| version | description   |
-|---------|---------------|
-| 1.0.0   | First Release |
+| version | description                      |
+|---------|----------------------------------|
+| 1.0.0   | First Release                    |
+| 1.0.1   | Readme updated                   |
 
 ## License
 Copyright (c) 2015 Hiroyoshi Kurohara  
