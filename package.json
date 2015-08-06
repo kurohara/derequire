@@ -1,7 +1,7 @@
 {
   "name": "moduleinfo",
   "description": "The reverse search tool for module.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/kurohara/moduleinfo",
   "author": {
     "name": "Hiroyoshi Kurohara",
